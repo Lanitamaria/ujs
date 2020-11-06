@@ -1,0 +1,7 @@
+<tr>
+    <td><%= tr_content.title %></td>
+    <td><%= tr_content.content %></td>
+    <td><%= link_to "Show", tr_content %></td>
+    <td><%= link_to "Edit", edit_post_path(tr_content) %></td>
+    <td><%= link_to "Destroy", tr_content, method: :delete, data: { confirm: "Are you sure?" } %></td>
+</tr>
